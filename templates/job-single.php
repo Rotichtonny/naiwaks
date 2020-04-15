@@ -11,4 +11,11 @@
     <br><br>
     <a href="index.php" >Go Back</a>
     <br><br>
+    <div class="well">
+        <a href="edit.php?id=<?php echo $job->id; ?>" class="btn btn-default">Edit</a>
+        <form style="display:inline;" action="job.php" method="post">
+            <input type="hidden" name="del_id" value="<?php echo $job->id; ?>">
+            <input type="submit" value="Delete" class="btn btn-danger">
+        </form>
+    </div>
 <?php include 'includes/footer.php'; ?>
