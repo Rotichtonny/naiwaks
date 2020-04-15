@@ -36,7 +36,7 @@ class Database{
     {
         if (is_null($type)) {
             switch (true) {
-                case is_init ($value):
+                case is_int ($value):
                     $type = PDO::PARAM_INT;
                     break;
                 
