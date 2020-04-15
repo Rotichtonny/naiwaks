@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="col-md-2">
-                    <a href="#" class="btn btn-default">View</a>
+                    <a href="job.php?id=<?php echo $job->id; ?>" class="btn btn-default">View</a>
                 </div>
             </div>
         <?php endforeach ?>
