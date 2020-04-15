@@ -19,7 +19,7 @@
             <div class="row marketing">
                 <div class="col-md-10">
                     <h4><?php echo $job->job_title; ?></h4>
-                    <p><?php echo $job->description; ?></p>
+                    <p><?php echo $job->descriptions; ?></p>
 
                 </div>
 
